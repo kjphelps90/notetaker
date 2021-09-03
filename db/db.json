@@ -1,6 +1,17 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "Test Title",
+        "text": "Test text",
+        "id": "1111"
+    },
+    {
+        "title": "Take out the trash",
+        "text": "You need to take out the trash on Fridays",
+        "id": "115f"
+    },
+    {
+        "title": "This is another note",
+        "text": "This is another note that you should be aware of.",
+        "id": "b099"
     }
 ]
