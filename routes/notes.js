@@ -1,6 +1,6 @@
 const notes = require("express").Router();
 const { readFromFile, writeToFile, readAndAppend } = require("../helpers/fsUtils");
-const uuid = require("uuid");
+const uuid = require("../helpers/uuid");
 
 notes.get("/", (req, res) => {
     console.info(`${req.method} request received for tips`);
@@ -26,3 +26,5 @@ notes.post("/", (req, res) => {
         res.error("error in posting note.")
     }
 });
+
+module.exports = notes;
